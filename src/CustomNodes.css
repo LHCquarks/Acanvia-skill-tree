@@ -1,0 +1,95 @@
+.root-skill-node{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	border-radius: 3px
+}
+
+.main-skill-node{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	border-radius: 3px
+}
+
+.sub-skill-node{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	border-radius: 3px
+}
+
+.main-skill-node.selected{
+	padding: 10px;
+	border: 1px solid purple;
+}
+
+.main-skill-node.unlocked{
+	border: 1px solid green;
+	padding: 10px;
+}
+
+.sub-skill-node.selected{
+	padding: 10px;
+	border: 1px solid purple;
+}
+
+.sub-skill-node.unlocked{
+	padding: 10px;
+}
+
+
+.root-skill-node.selected{
+	padding: 10px;
+	border: 1px solid purple;
+}
+
+.root-skill-node.unlocked{
+	padding: 10px;
+}
+
+.skill-diamonds-container {
+	position: absolute;
+	bottom: 3px;
+	display: flex;
+	left: calc(50% + 1px);
+	transform: translate(-50%);
+	justify-content: center;
+}
+
+.skill-diamond-container {
+	width: 8px;
+	height: 8px;
+}
+
+.skill-diamond {
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+	transform: rotate(45deg);
+	border: 1px solid #000;
+}
+
+.skill-diamond.unlocked {
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.skill-hover {
+	position: absolute;
+	bottom: 110%;
+	background: #fff;
+}
+
+.skill-name {
+	position: relative;
+	padding: 0px;
+	line-height: 1px;
+	margin: 0;
+}

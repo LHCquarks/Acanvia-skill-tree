@@ -1,0 +1,13 @@
+.react-flow.dark{
+	background-color: rgb(18, 18, 24);
+}
+
+.points-total{
+	position: absolute;
+	color: #FFF;
+	z-index: 1;
+}
+
+body{
+	background-color: rgb(18, 18, 24);
+}
