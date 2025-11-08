@@ -84,12 +84,15 @@
 .skill-hover {
 	position: absolute;
 	bottom: 110%;
-	background: #fff;
+	left:50%;
+	transform: translate(-50%);
+	background: #232a42;
+	border-radius: 3px;
 }
 
 .skill-name {
 	position: relative;
-	padding: 0px;
-	line-height: 1px;
+	padding: 6px;
+	line-height: 5px;
 	margin: 0;
 }

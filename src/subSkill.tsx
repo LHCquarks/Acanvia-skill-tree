@@ -32,7 +32,7 @@ export default function SubSkillNode(props: NodeProps<SubSkillNodeType>) {
 				<div>{props.id}</div>
 				{getHandles(props.data)}
 				{getDiamonds(props.data)}
-				{showTitle && isHovering? <div className="skill-hover"><p>{props.data.title}</p></div>: null}
+				{showTitle && isHovering? <div className="skill-hover"><h4 className="skill-name">{props.data.title}</h4></div>: null}
       </div>
     </div>
   );
